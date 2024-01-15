@@ -1,6 +1,7 @@
 from requests import Response
 from restclient.restclient import Restclient
-from dm_api_account import validate_request_json, validate_status_code
+from dm_api_account.models import *
+from dm_api_account.utilities import validate_request_json, validate_status_code
 
 
 class LoginApi:
