@@ -1,5 +1,5 @@
 from setuptools import setup
-REQUIRES = [
+REQUESTS = [
     'allure-pytest',
     'restclient',
     'requests'
@@ -8,11 +8,11 @@ REQUIRES = [
 setup(
     name='dm_api_account',
     version='0.0.1',
-    packages=['apis', 'models'],
+    packages=['dm_api_account', 'dm_api_account.apis', 'dm_api_account.models'],
     url='https://github.com/July-vilh/dm_api_account.git',
     license='MIT',
     author='Yuliya Vilchynskaya',
     author_email='-',
-    install_requirements=REQUIRES,
-    description='dm api account'
+    install_reqirements=REQUESTS,
+    description='dm_api_account'
 )
