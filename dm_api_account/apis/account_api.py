@@ -1,6 +1,5 @@
 import allure
 from requests import Response
-from models import *
 # from apis.dm_api_account.models import userenvelop
 from restclient.restclient import Restclient
 from dm_api_account import validate_request_json, validate_status_code
